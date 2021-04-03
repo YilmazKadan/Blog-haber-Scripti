@@ -4,6 +4,12 @@ include 'header.php';
 if (isset($_POST['ara'])) {
 	$aranan=$_POST['aranan'];
 }
+else if(isset($_GET['aranan'])){
+	$aranan = $_GET['aranan'];
+}
+else{
+	header("Location:Anasayfa");
+}
 
 
 ?>
@@ -62,7 +68,7 @@ if (isset($_POST['ara'])) {
 										<ul class="post-meta">
 											<li><a href="yazar.php">John Doe</a></li>
 											<li><?php 
-											$tarih= new datetime($cek['makale_tarih']);
+											$tarih= $cek['makale_tarih'];
 											echo  tarihfarki($tarih);  ?></li>
 										</ul>
 									</div>
@@ -84,7 +90,7 @@ if (isset($_POST['ara'])) {
 									<?php if($sayfa>1){?>
 										<li class="page-item"><a class="page-link" href="search.php?sayfa=1" >İlk</a></li>
 
-										<li class="page-item">	<a class="page-link" href="search.php?sayfa=<?php echo $sayfa-1; ?>" >Geri</a></li>
+										<li class="page-item">	<a class="page-link" href="search.php?sayfa=<?php echo $sayfa-1; ?>&aranan=<?php echo $aranan ?>" >Geri</a></li>
 									<?php } else{?>
 										<li class="page-item disabled"><a class="page-link" >İlk</a></li>
 
@@ -99,14 +105,14 @@ if (isset($_POST['ara'])) {
 												echo '<li class="page-item active"><a class="page-link" >'.$i.'</a></li>';
 											}
 											else{
-												echo '<li class="page-item"><a class="page-link" href="search.php?sayfa='.$i.'">'.$i.'</a></li>';						
+												echo '<li class="page-item"><a class="page-link" href="search.php?sayfa='.$i.'&aranan='.$aranan.' ">'.$i.'</a></li>';						
 											}
 										}
 									}
 									?>
 									<?php if($sayfa!=$toplam_sayfa){?>
 										<li class="page-item">
-											<a class="page-link" href="search.php?sayfa=<?php echo $sayfa+1;?>">İleri</a>
+											<a class="page-link" href="search.php?sayfa=<?php echo $sayfa+1;?>&aranan=<?php echo $aranan ?>">İleri</a>
 										</li>
 										<li class="page-item">
 											<a class="page-link" href="search.php?sayfa=<?php echo $sayfa=$toplam_sayfa;?>">Son</a>
@@ -114,7 +120,7 @@ if (isset($_POST['ara'])) {
 									<?php } else{?>
 										<li class="page-item disabled"><a class="page-link" >İlk</a></li>
 
-										<li class="page-item disabled">	<a class="page-link" >Geri</a></li>
+										<li class="page-item disabled">	<a class="page-link" >İleri</a></li>
 
 									<?php } ?>
 								</ul>
