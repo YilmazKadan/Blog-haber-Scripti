@@ -1,0 +1,19 @@
+﻿
+***************BUGLAR********************
+1.Güvenli dosya işlemleri yapılacak
+2.Kategori silindiğinde kategori id den bulunamayacağından dolayı çıkacak hatalar bastırırlacak.
+3.Tablolarda javascript ile sıralama yapılacak
+4.Adres çubuğundan id ile veri silme işlemi engellenecek admin panelinde.
+5.Adres çubuğundan  yanlış girilen makale id lere göre ayar çek                         Düzeltildi
+6.Bazı makaleler pasif halde  geliyor onlar engellenecek//                              Düzeltildi
+7.Kategorilerde makale sayısı farklı bir yöntemle çekilecek.Sunucu fazla yorulmayacak.
+
+***************EKLENECEK BÖLÜMLER********************
+SAYFALAMA   								TAMAMLANDI
+SEARCH YAPARAK ARAMA  						TAMAMLANDI
+HATA SAYFALARININ YÖNLENDİRİLMESİ
+MAKALE İÇERİK ALTINA YAZAR BİLGİSİ EKLENMESİ 
+OKUNMA SAYISI YAPILACAK                     TAMAMLANDI
+YORUMLAR YAPILACAK							TAMAMLANDI
+DİNAMİK KEYWORD VE TİTTLE                   TAMAMLANDI
+AJAX İLE YORUM GÖNERDİMİ YAPILMASI

@@ -1,0 +1,27 @@
+#Yönlendirmeleri aktif eder.
+RewriteEngine on
+
+#Seo url oluşturma
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+
+#404 hata sayfası yönlendirme kodu
+
+ErrorDocument 404 http://localhost/Blog/Bulunamadi
+
+#SEO URLELER
+RewriteRule ^kategori-([0-9a-zA-Z-_]+) kategori.php?sef=$1 [L,QSA]
+RewriteRule ^makale/([0-9a-zA-Z-_]+)/([0-9]+)$  devam.php?sef=$1&id=$2 [L,QSA]
+
+
+
+
+#Farklı isimle yönlendirmeler
+RewriteRule ^bize-ulasin$ iletisim.php [NC,L]
+RewriteRule ^ben-kimim$ hakkimizda.php [NC,L]
+RewriteRule ^Anasayfa$ index.php [NC,L]
+RewriteRule ^Bulunamadi$ 404.php [NC,L]
+
+

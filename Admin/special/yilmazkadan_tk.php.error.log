@@ -1,0 +1,157 @@
+[03-May-2019 14:40:58 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/yilmazka/public_html/Admin/special/baglan.php:3
+Stack trace:
+#0 /home/yilmazka/public_html/Admin/special/baglan.php(3): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/yilmazka/public_html/header.php(3): include('/home/yilmazka/...')
+#2 /home/yilmazka/public_html/index.php(2): include('/home/yilmazka/...')
+#3 {main}
+  thrown in /home/yilmazka/public_html/Admin/special/baglan.php on line 3
+[03-May-2019 14:40:59 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/yilmazka/public_html/Admin/special/baglan.php:3
+Stack trace:
+#0 /home/yilmazka/public_html/Admin/special/baglan.php(3): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/yilmazka/public_html/header.php(3): include('/home/yilmazka/...')
+#2 /home/yilmazka/public_html/index.php(2): include('/home/yilmazka/...')
+#3 {main}
+  thrown in /home/yilmazka/public_html/Admin/special/baglan.php on line 3
+[03-May-2019 14:41:14 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/yilmazka/public_html/Admin/special/baglan.php:3
+Stack trace:
+#0 /home/yilmazka/public_html/Admin/special/baglan.php(3): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/yilmazka/public_html/Admin/special/islem.php(2): include('/home/yilmazka/...')
+#2 {main}
+  thrown in /home/yilmazka/public_html/Admin/special/baglan.php on line 3
+[03-May-2019 14:41:30 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/yilmazka/public_html/Admin/special/baglan.php:3
+Stack trace:
+#0 /home/yilmazka/public_html/Admin/special/baglan.php(3): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/yilmazka/public_html/Admin/special/baglan.php on line 3
+[03-May-2019 14:41:55 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/yilmazka/public_html/Admin/special/baglan.php:3
+Stack trace:
+#0 /home/yilmazka/public_html/Admin/special/baglan.php(3): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/yilmazka/public_html/header.php(3): include('/home/yilmazka/...')
+#2 /home/yilmazka/public_html/index.php(2): include('/home/yilmazka/...')
+#3 {main}
+  thrown in /home/yilmazka/public_html/Admin/special/baglan.php on line 3
+[03-May-2019 14:42:31 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/yilmazka/public_html/Admin/special/baglan.php:3
+Stack trace:
+#0 /home/yilmazka/public_html/Admin/special/baglan.php(3): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/yilmazka/public_html/header.php(3): include('/home/yilmazka/...')
+#2 /home/yilmazka/public_html/index.php(2): include('/home/yilmazka/...')
+#3 {main}
+  thrown in /home/yilmazka/public_html/Admin/special/baglan.php on line 3
+[03-May-2019 14:42:32 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/yilmazka/public_html/Admin/special/baglan.php:3
+Stack trace:
+#0 /home/yilmazka/public_html/Admin/special/baglan.php(3): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/yilmazka/public_html/header.php(3): include('/home/yilmazka/...')
+#2 /home/yilmazka/public_html/index.php(2): include('/home/yilmazka/...')
+#3 {main}
+  thrown in /home/yilmazka/public_html/Admin/special/baglan.php on line 3
+[07-May-2019 04:59:25 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 04:59:25 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 04:59:27 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 04:59:27 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:00:31 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:00:31 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:00:35 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:00:35 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:00:56 Europe/Istanbul] PHP Warning:  require(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/devam.php on line 2
+[07-May-2019 05:00:56 Europe/Istanbul] PHP Warning:  require(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/devam.php on line 2
+[07-May-2019 05:00:56 Europe/Istanbul] PHP Fatal error:  require(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/devam.php on line 2
+[07-May-2019 05:01:16 Europe/Istanbul] PHP Warning:  require(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/devam.php on line 2
+[07-May-2019 05:01:16 Europe/Istanbul] PHP Warning:  require(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/devam.php on line 2
+[07-May-2019 05:01:16 Europe/Istanbul] PHP Fatal error:  require(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/devam.php on line 2
+[07-May-2019 05:01:19 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:01:19 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:01:22 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:01:22 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:01:43 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:01:43 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:04:52 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:04:52 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:11:18 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:11:18 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:11:22 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:11:22 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:11:36 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:11:36 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:12:49 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:12:49 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:12:54 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:12:54 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:14:48 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:14:48 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:14:56 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:14:56 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:15:14 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 05:15:14 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 13:23:26 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 13:23:26 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 13:32:52 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 13:32:52 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:04:24 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:04:24 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:07:27 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:07:27 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:09:58 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:09:58 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:09:59 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:09:59 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:10:00 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:10:00 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:10:20 Europe/Istanbul] PHP Fatal error:  Call to a member function prepare() on null in /home/yilmazka/public_html/footer.php on line 3
+[07-May-2019 14:12:05 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:12:05 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.;/path/to/php/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 11:14:36 UTC] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 11:14:36 UTC] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 11:14:41 UTC] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 11:14:41 UTC] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 11:14:42 UTC] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 11:14:42 UTC] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 11:15:03 UTC] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 11:15:03 UTC] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:45 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:45 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:46 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:46 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:46 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:46 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:47 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:47 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:48 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:48 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:48 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:48 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:49 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:49 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:49 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:49 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:51 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:51 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:53 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:15:53 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:16:58 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:16:58 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:17:02 Europe/Istanbul] PHP Warning:  require_once(Admin/special/baglan.php): failed to open stream: No such file or directory in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 14:17:02 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required 'Admin/special/baglan.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/yilmazka/public_html/header.php on line 3
+[07-May-2019 11:26:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/yilmazka/public_html/config.php:25
+Stack trace:
+#0 /home/yilmazka/public_html/config.php(15): mth->mysqlConnect()
+#1 /home/yilmazka/public_html/index.php(3): mth->__construct()
+#2 {main}
+  thrown in /home/yilmazka/public_html/config.php on line 25
+[07-May-2019 15:19:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/yilmazka/public_html/config.php:25
+Stack trace:
+#0 /home/yilmazka/public_html/config.php(15): mth->mysqlConnect()
+#1 /home/yilmazka/public_html/404.php(3): mth->__construct()
+#2 {main}
+  thrown in /home/yilmazka/public_html/config.php on line 25
+[07-May-2019 15:19:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/yilmazka/public_html/config.php:25
+Stack trace:
+#0 /home/yilmazka/public_html/config.php(15): mth->mysqlConnect()
+#1 /home/yilmazka/public_html/index.php(3): mth->__construct()
+#2 {main}
+  thrown in /home/yilmazka/public_html/config.php on line 25
+[07-May-2019 17:54:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/yilmazka/public_html/config.php:25
+Stack trace:
+#0 /home/yilmazka/public_html/config.php(15): mth->mysqlConnect()
+#1 /home/yilmazka/public_html/index.php(3): mth->__construct()
+#2 {main}
+  thrown in /home/yilmazka/public_html/config.php on line 25
